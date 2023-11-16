@@ -1,10 +1,10 @@
 permalink: /:year:month:day/:title
-url: #Your url here
+url: edenwuyifan.github.io
 baseurl: /project
 
 # variables
-name: Your Site Name
-description: Your description here
+name: Eden's Personal Site
+description: Win98-Eden
 google_verification: null
 
 
