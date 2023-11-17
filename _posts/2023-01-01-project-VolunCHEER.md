@@ -44,7 +44,7 @@ VolunCHEER is an application with advanced professional job board features like 
 
 ## Register
 
-```mermaid
+```mermaid!
 sequenceDiagram
     actor User
     participant RP as Registration Page
@@ -80,7 +80,7 @@ sequenceDiagram
 
 ## Login
 
-```mermaid
+```mermaid!
 sequenceDiagram
     actor User
     participant LP as Login Page
@@ -118,7 +118,7 @@ sequenceDiagram
 
 ## Reset Password
 
-```mermaid
+```mermaid!
 sequenceDiagram
     actor User
     participant LP as Login Page
@@ -159,7 +159,7 @@ sequenceDiagram
 
 ## Profile Page
 
-```mermaid
+```mermaid!
 sequenceDiagram
     actor User
     participant PP as Profile Page
@@ -202,7 +202,7 @@ sequenceDiagram
 
 ## Job Board
 
-```mermaid
+```mermaid!
 sequenceDiagram
     actor Org as Organization
     participant CB as Chatbox
@@ -255,11 +255,7 @@ sequenceDiagram
     DS ->> Org: Notify organization
     deactivate DS
     Org -->> Vol: Follow ups
-    
-    
-    
-    
-		deactivate JB
+	deactivate JB
 		
 ```
 
