@@ -3,27 +3,29 @@ layout: me
 title: me
 ---
 # Yifan (Eden) Wu
-:email: yfw215@nyu.edu
-:telephone_receiver: +1 (646)706-1025
-:house: 22 Chapel Street, Brooklyn, NY, 11201
+:email: yfw215@nyu.edu  
+:telephone_receiver: +1 (646)706-1025  
+:house: 22 Chapel Street, Brooklyn, NY, 11201  
 
 
 
-## ABOUT ME
+# ABOUT ME
 
 Hello, I'm Eden Wu. My journey into the world of technology was shaped by the unique blend of influences from my parents— a software engineer and a researcher. This upbringing ignited my early fascination with computer programming, steering me towards a path that seamlessly integrates my technical acumen with a profound appreciation for art and literature. My educational endeavors at New York University Tandon School of Engineering and New York University Shanghai further honed my skills, encompassing computer science, interactive media art, and game design. Following graduation, my professional trajectory led me to Huawei, where I played a pivotal role in developing the Packet Core Service Functionalities for the Huawei 5G Network Engine Router. Subsequently, I undertook internships at Kuaishou and Tsinghua University Laboratory, delving into diverse AI projects, from image recognition to Super Resolution models. Currently serving as a Research Assistant at New York University, I contribute to the AlphaD3M project, implementing MonteCarlo Tree algorithms and leading the development of image classification pipelines using CLIP and ViT models. Eager to continue my journey as a developer, I am presently engaged as a Backend Developer at Artitone, co-founding an online marketplace that supports the artist community in industrial artworks. My multifaceted experiences, from algorithm design to quality assurance, underscore my commitment to driving innovation in the dynamic field of technology.
 
 
-## EDUCATION
+# EDUCATION
+  
 | Period | Experience |
 | :-------------- | :-------------- |
 | 2021-09 - Current | Computer Science, M.S., **NYU Tandon School of Engineering**, New York, NY |
 | 2017-09 - 2021-07 | Computer Science, B.S. (Minor in Interactive Media Art), **New York University Shanghai** |
 | 2019-09 - 2020-06 | Computer Science, B.S. (Minor in Game Design), **New York University**, New York, NY |
 
-## WORKING EXPERIENCE
 
-### New York University 
+# WORKING EXPERIENCE
+
+## New York University 
 <p style="text-align:left;">
     <b>Research Assistant</b>, New York
     <span style="float:right;">
@@ -34,7 +36,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Contributed as a Research Assistant at NYU Visualization Imaging and Data Analysis Center (VIDA) on the AlphaD3M project which Implemented MonteCarlo Tree algorithms.
 - Led the development and implementation of image classification pipelines utilizing CLIP and ViT models. Crafted Time Series Forecasting pipelines employing DeepAR and ARIMA models, showcasing expertise in diverse machine learning techniques. Designed and developed semisupervised pipelines, enhancing the project's versatility and applicability.
 
-### Huawei Technology
+***  
+
+## Huawei Technology
 <p style="text-align:left;">
     <b>Software Developer</b>, Shanghai
     <span style="float:right;">
@@ -46,7 +50,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Engineered Disaster Tolerance functionalities for Kubernetes (k8s) and Docker Container as a Service (CaaS) clusters.
 - Developed and maintained IP Stack module, IPSec VPN module, and Hot Backup Finite-state machine module. Received the prestigious Huawei Future Star Award in recognition of outstanding contributions and achievements.
 
-### Artitone
+***  
+
+## Artitone
 <p style="text-align:left;">
     <b>Backend Developer</b>, New York
     <span style="float:right;">
@@ -57,7 +63,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Co-founded and contributed to the development of Artitone, an online marketplace dedicated to supporting the artist community in industrial artworks.
 - Designed and implemented the backend infrastructure using Django on AWS Elastic Beanstalk. Established the complete CI/CD pipeline. Developed and maintained the database architecture using PostgreSQL. Implemented image recognition techniques, including CLIP algorithms, enable the platform to categorize artworks by their texture and color palettes.
 
-### Tsinghua University Laboratory
+***  
+
+## Tsinghua University Laboratory
 <p style="text-align:left;">
     <b>Algorithm Designer Intern</b>, Shanghai
     <span style="float:right;">
@@ -67,7 +75,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 
 - Project experience in building and training UNet satellite remote imagery building segmentation model for Tsinghua Environmental Institute. Personal responsibility is to develop 3D city database of China for academic use.
 
-### Kuaishou
+***  
+
+## Kuaishou
 <p style="text-align:left;">
     <b>Heterogenous Computation Intern</b>, Beijing
     <span style="float:right;">
@@ -79,8 +89,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Evaluated various GPU and FPGA chips. Achieved 50% performance boost with the CPU + FPGA config in comparison with pure CPU config.
 - Developed Kuaishou’s own optimized inference engine using Intel OpenVINO API + OpenCL, implemented Super Resolution and Bert models on different AI chips and test machines.
 
+***  
 
-### WeCode
+## WeCode
 <p style="text-align:left;">
     <b>Learning Course Designer Intern</b>, Beijing
     <span style="float:right;">
@@ -90,8 +101,9 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 
 - Developed fun python tutorials for kids, introducing libraries such as Turtle, pyGame and sklearn to pupils.
 
+***  
 
-### HYD Software
+## HYD Software
 <p style="text-align:left;">
     <b>Quality Assurance Intern</b>, Beijing
     <span style="float:right;">
@@ -102,7 +114,8 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Performed functional testing and test automation for an online marketing solution for Internet Brands as agile tester and programmer.
 - Proficient in using Java-based automation test IDEs such as Robot Framework and Angular JS. Created 100+ automation scripts for functional test, performance test, and stress test. Launched over 1,000 black-box test cases.
 
-## SKILLS
+# SKILLS
+
 | Skill | Master Level |
 | :-------------- | :-------------- |
 | Python | :star: :star: :star: :star: :star: |
@@ -113,6 +126,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 | Kubernetes/Docker | :star: :star: :star: :star: |
 | Django | :star: :star: :star: :star: |
 | SQL | :star: :star: :star: :star: |
+
 
 
 [[Top]](#top)
