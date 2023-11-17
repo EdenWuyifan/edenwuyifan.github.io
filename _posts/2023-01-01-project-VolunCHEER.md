@@ -44,114 +44,20 @@ VolunCHEER is an application with advanced professional job board features like 
 
 ## Register
 
-```mermaid!
-sequenceDiagram
-    actor User
-    participant RP as Registration Page
-    participant LP as Login Page
-    participant DS as Django Server
-    participant DB as Database
-    
-    User ->> RP: Enter details
-    activate RP
-    RP -->> RP: Validation
-    activate DS
-    RP ->> DS: Submit details
-    DS -->> DS: Validation
-    DS ->> DB: Check if user exists
-    activate DB
-    alt user exists
-    		DB ->> DS: Yes
-        DS ->> RP: ERROR: User already exists
-        RP -->> RP: Redirect to Register page
-    else user doesn't exist
-        DB ->> DS: No
-        DS ->> DB: Add user
-        DB ->> DS: User added
-        deactivate DB
-        DS ->> RP: Register success
-        deactivate DS
-        RP ->> LP: Redirect to Login page
-    end
-		deactivate RP
-		
-```
+<img width="502" alt="image" src="https://github.com/EdenWuyifan/edenwuyifan.github.io/assets/43869961/d5d7d15c-862e-439a-b422-a6c791159abc">
+
 
 
 ## Login
 
-```mermaid!
-sequenceDiagram
-    actor User
-    participant LP as Login Page
-    participant PP as Profile Page
-    participant DS as Django Server
-    participant DB as Database
-    User ->> PP: Click login
-    activate PP
-    PP ->> LP: Redirect to Login page
-    deactivate PP
-    User ->> LP: Enter details
-    activate LP
-    LP -->> LP: Validation
-    activate DS
-    LP ->> DS: Submit details
-    DS -->> DS: Validation
-    DS ->> DB: Check if user exists
-    activate DB
-    alt user exists
-    		DB ->> DS: Yes
-        DS ->> LP: ERROR: User already exists
-    else user doesn't exist
-        DB ->> DS: No
-        deactivate DB
-        DS ->> LP: Login success
-        deactivate DS
-        
-        deactivate LP
-        LP ->> PP: Redirect to Job Board page
-    end
-		
-```
+<img width="516" alt="image" src="https://github.com/EdenWuyifan/edenwuyifan.github.io/assets/43869961/56e9adc6-1a5d-4021-abeb-4b3670e45b57">
 
 
 
 ## Reset Password
 
-```mermaid!
-sequenceDiagram
-    actor User
-    participant LP as Login Page
-    participant DS as Django Server
-    participant DB as Database
+<img width="434" alt="image" src="https://github.com/EdenWuyifan/edenwuyifan.github.io/assets/43869961/961b5aa9-71b1-43f6-956f-f7aa40cc09fb">
 
-    User ->> LP: Reset password
-    activate LP
-    User ->> LP: Re-enter email address
-    LP -->> LP: Validation
-    LP ->> DS: Submit address
-    activate DS
-    DS -->> DS: Validation
-    DS ->> DB: Check if email exists
-    activate DB
-    alt email doesn't exists
-    		DB ->> DS: No
-        DS ->> LP: ERROR: Email doesn't exists
-    else email exist
-        DB ->> DS: Yes
-        
-        DS ->> User: Send reset email
-        User ->> DS: New password
-        DS -->> DS: Validation
-        DS ->> DB: Update password
-        deactivate DB
-        DS ->> LP: Login success
-        deactivate DS
-        
-        deactivate LP
-    end
-		
-```
 
 
 
@@ -159,105 +65,15 @@ sequenceDiagram
 
 ## Profile Page
 
-```mermaid!
-sequenceDiagram
-    actor User
-    participant PP as Profile Page
-    participant JB as Job Board
-    participant DS as Django Server
-    participant DB as Database
-    User ->> JB: Click profile
-    activate JB
-    JB ->> DS: Submit user key
-    activate DS
-    DS ->> DB: Check if user exists
-    activate DB
-    alt user exists
-    		DB ->> DS: User info
-    		DS ->> PP: Display userinfo
-    		deactivate JB
-    		activate PP
-        PP ->> User: View user info
-    else user doesn't exist
-        DB ->> DS: 404 Error
-        DS ->> JB: 404 Error
-    end
-    
-    User ->> PP: Update info
-    PP -->> PP: Validate
-    PP ->> DS: Validated user info
-    DS ->> DB: Update info in database
-    DB ->> DS: ACK
-    deactivate DB
-    DS ->> PP: Display updated user info
-    deactivate DS
-    PP ->> User: View updated user info
-    deactivate PP
-    
-    
+<img width="514" alt="image" src="https://github.com/EdenWuyifan/edenwuyifan.github.io/assets/43869961/6d29ba8d-acf1-4aca-8a4d-42c2e0b34b46">
 
-```
 
 
 
 ## Job Board
 
-```mermaid!
-sequenceDiagram
-    actor Org as Organization
-    participant CB as Chatbox
-    participant JB as Job Board
-    participant DS as Django Server
-    participant DB as Database
-    actor Vol as Volunteer
-    
-    note over Org, Vol: Organization post a job
-    Org ->> JB: Enter job details
-    activate JB
-    JB -->> JB: Validation
-    JB ->> DS: Submit details
-    activate DS
-    DS -->> DS: Validation
-    DS ->> DB: Add job to database
-    activate DB
-    DS ->> DB: Query volunteers with similar background
-    DB ->> DS: Volunteer dataset
-    deactivate DB
-    DS ->> JB: Show recommended volunteers
-    deactivate DS
-    Org ->> JB: Make connection
-    JB ->> CB: Create chatroom with volunteers
-    activate CB
-    Org -->> CB: Chat with volunteers
-    Vol -->> CB: Chat with organization
-    deactivate CB
-    
-    note over Org, Vol: Volunteer job searching
-    Vol ->> JB: Search job
-    JB ->> DS: Submit job filters
-    activate DS
-    DS -->> DS: Validation
-    DS ->> DB: Submit job filters
-    activate DB
-    DB ->> DS: Search results
-    DS ->> JB: Display results
-    
-    Vol ->> JB: Select job
-    JB ->> CB: Create chatroom with organizaition
-    activate CB
-    Vol -->> CB: Chat with organization
-    Org -->> CB: Hire volunteer
-    Vol -->> CB: Confirm
-    CB ->> DS: Volunteer key, job key tuple
-    deactivate CB
-    DS ->> DB: Update DB
-    deactivate DB
-    DS ->> Org: Notify organization
-    deactivate DS
-    Org -->> Vol: Follow ups
-	deactivate JB
-		
-```
+<img width="530" alt="image" src="https://github.com/EdenWuyifan/edenwuyifan.github.io/assets/43869961/e09ec809-5b43-42eb-919e-df8feaab2bb3">
+
 
 
 
