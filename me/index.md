@@ -25,7 +25,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 
 # WORKING EXPERIENCE
 
-## New York University 
+## :large_blue_circle: New York University 
 <p style="text-align:left;">
     <b>Research Assistant</b>, New York
     <span style="float:right;">
@@ -36,9 +36,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Contributed as a Research Assistant at NYU Visualization Imaging and Data Analysis Center (VIDA) on the AlphaD3M project which Implemented MonteCarlo Tree algorithms.
 - Led the development and implementation of image classification pipelines utilizing CLIP and ViT models. Crafted Time Series Forecasting pipelines employing DeepAR and ARIMA models, showcasing expertise in diverse machine learning techniques. Designed and developed semisupervised pipelines, enhancing the project's versatility and applicability.
 
-***  
-
-## Huawei Technology
+## :large_blue_circle: Huawei Technology
 <p style="text-align:left;">
     <b>Software Developer</b>, Shanghai
     <span style="float:right;">
@@ -50,9 +48,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Engineered Disaster Tolerance functionalities for Kubernetes (k8s) and Docker Container as a Service (CaaS) clusters.
 - Developed and maintained IP Stack module, IPSec VPN module, and Hot Backup Finite-state machine module. Received the prestigious Huawei Future Star Award in recognition of outstanding contributions and achievements.
 
-***  
-
-## Artitone
+## :large_blue_circle: Artitone
 <p style="text-align:left;">
     <b>Backend Developer</b>, New York
     <span style="float:right;">
@@ -63,9 +59,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Co-founded and contributed to the development of Artitone, an online marketplace dedicated to supporting the artist community in industrial artworks.
 - Designed and implemented the backend infrastructure using Django on AWS Elastic Beanstalk. Established the complete CI/CD pipeline. Developed and maintained the database architecture using PostgreSQL. Implemented image recognition techniques, including CLIP algorithms, enable the platform to categorize artworks by their texture and color palettes.
 
-***  
-
-## Tsinghua University Laboratory
+## :large_blue_circle: Tsinghua University Laboratory
 <p style="text-align:left;">
     <b>Algorithm Designer Intern</b>, Shanghai
     <span style="float:right;">
@@ -75,9 +69,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 
 - Project experience in building and training UNet satellite remote imagery building segmentation model for Tsinghua Environmental Institute. Personal responsibility is to develop 3D city database of China for academic use.
 
-***  
-
-## Kuaishou
+## :large_blue_circle: Kuaishou
 <p style="text-align:left;">
     <b>Heterogenous Computation Intern</b>, Beijing
     <span style="float:right;">
@@ -89,9 +81,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 - Evaluated various GPU and FPGA chips. Achieved 50% performance boost with the CPU + FPGA config in comparison with pure CPU config.
 - Developed Kuaishou’s own optimized inference engine using Intel OpenVINO API + OpenCL, implemented Super Resolution and Bert models on different AI chips and test machines.
 
-***  
-
-## WeCode
+## :large_blue_circle: WeCode
 <p style="text-align:left;">
     <b>Learning Course Designer Intern</b>, Beijing
     <span style="float:right;">
@@ -101,9 +91,7 @@ Hello, I'm Eden Wu. My journey into the world of technology was shaped by the un
 
 - Developed fun python tutorials for kids, introducing libraries such as Turtle, pyGame and sklearn to pupils.
 
-***  
-
-## HYD Software
+## :large_blue_circle: HYD Software
 <p style="text-align:left;">
     <b>Quality Assurance Intern</b>, Beijing
     <span style="float:right;">
