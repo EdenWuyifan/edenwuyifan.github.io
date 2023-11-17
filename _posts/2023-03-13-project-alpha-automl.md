@@ -12,7 +12,7 @@ tags: projects
 [![Documentation Status](https://readthedocs.org/projects/alpha-automl/badge/?version=latest)](https://alpha-automl.readthedocs.io/en/latest/?badge=latest)
 
 
-<img src="https://github.com/VIDA-NYU/alpha-automl/raw/devel/Alpha-AutoML_logo.png" width=30%>
+![Not so big](https://github.com/VIDA-NYU/alpha-automl/raw/devel/Alpha-AutoML_logo.png)
 
 
 Alpha-AutoML is an AutoML system that automatically searches for models and derives end-to-end pipelines that read, 

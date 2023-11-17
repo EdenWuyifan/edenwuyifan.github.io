@@ -6,6 +6,7 @@ baseurl: /project
 name: Eden's Personal Site
 description: Win98-Eden
 google_verification: null
+mermaid: true
 
 
 # File management
