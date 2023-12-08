@@ -39,11 +39,11 @@ Within the digital archives of my culinary exploits, you'll find a diverse colle
 *2023 Spring at New York*
   
   
-![profile](/assets/img/cookings/Eden 2023-12-12 23.26.47.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.47.jpeg)  
 *2023 Spring at New York*
   
   
-![profile](/assets/img/cookings/Eden 2023-12-12 23.26.58.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.58.jpeg)  
 *2022 Summer at Shanghai*
   
   
