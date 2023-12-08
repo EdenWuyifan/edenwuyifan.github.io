@@ -13,7 +13,7 @@ title: me
 
 Hello, I'm Eden Wu. My journey into the world of technology was shaped by the unique blend of influences from my parents— a software engineer and a researcher. This upbringing ignited my early fascination with computer programming, steering me towards a path that seamlessly integrates my technical acumen with a profound appreciation for art and literature. My educational endeavors at New York University Tandon School of Engineering and New York University Shanghai further honed my skills, encompassing computer science, interactive media art, and game design. Following graduation, my professional trajectory led me to Huawei, where I played a pivotal role in developing the Packet Core Service Functionalities for the Huawei 5G Network Engine Router. Subsequently, I undertook internships at Kuaishou and Tsinghua University Laboratory, delving into diverse AI projects, from image recognition to Super Resolution models. Currently serving as a Research Assistant at New York University, I contribute to the AlphaD3M project, implementing MonteCarlo Tree algorithms and leading the development of image classification pipelines using CLIP and ViT models. Eager to continue my journey as a developer, I am presently engaged as a Backend Developer at Artitone, co-founding an online marketplace that supports the artist community in industrial artworks. My multifaceted experiences, from algorithm design to quality assurance, underscore my commitment to driving innovation in the dynamic field of technology.
 
-![Not so big](/assets/img/disk.png)
+![Not so big](/assets/img/profile/Eden-2023-12-12-23.25.17.jpeg)
 
 # EDUCATION
   
