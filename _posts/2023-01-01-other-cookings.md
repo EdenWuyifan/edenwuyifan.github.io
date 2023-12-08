@@ -11,79 +11,79 @@ In the realm of coding and algorithms, I find solace and creativity in a vastly 
 Within the digital archives of my culinary exploits, you'll find a diverse collection of meticulously documented recipes and culinary adventures. From intricate gourmet creations to rustic campfire delights, each entry captures the essence of my culinary exploration. These archives serve not only as a testament to my love for cooking but also as a source of inspiration for fellow software engineers and gastronomes alike, showcasing the seamless fusion of logic and creativity in both the virtual and culinary realms. Join me on this flavorful expedition as I continue to balance the intricacies of coding with the joyous symphony of sizzling pans and aromatic spices.
 
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.12.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.12.jpeg)
 *2023 Summer at New York*
   
 
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.17.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.17.jpeg)
 *2023 Spring at New York*
   
 
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.18.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.18.jpeg)
 *2023 Spring at New York*
   
 
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.21.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.21.jpeg)
 *2023 Spring at New York*
   
 
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.23.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.23.jpeg)
 *2023 Spring at New York*
   
 
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.30.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.30.jpeg)
 *2023 Spring at New York*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.46.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.46.jpeg)
 *2023 Spring at New York*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.47.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.47.jpeg)
 *2023 Spring at New York*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.26.58.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.26.58.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.27.01.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.27.01.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.27.05.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.27.05.jpeg)
 *2021 Winter at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.27.28.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.27.28.jpeg)
 *2021 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.04.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.04.jpeg)
 *2021 Spring at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.15.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.15.jpeg)
 *2022 Autumn at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.30.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.30.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.40.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.40.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.42.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.42.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.43.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.43.jpeg)
 *2022 Summer at Shanghai*
   
   
-![Not so big](/assets/img/cookings/Eden 2023-12-12 23.28.46.jpeg)
+![profile](/assets/img/cookings/Eden 2023-12-12 23.28.46.jpeg)
 *2022 Summer at Shanghai*
   
   

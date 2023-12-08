@@ -4,8 +4,8 @@ body {
 	font-size: 13px;
 }
 
-p img {
-	width: 40%;
+p img[alt=profile] {
+	width: 60%;
 }
 
 .wrapper, .content {
