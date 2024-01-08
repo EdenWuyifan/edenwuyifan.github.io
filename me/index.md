@@ -6,8 +6,7 @@ title: me
 :email: yfw215@nyu.edu  
 :telephone_receiver: +1 (646)706-1025  
 :house: 45 Park Lane South, Jersey City, NJ, 07310  
-:technologist: [github](https://github.com/EdenWuyifan)
-:globe_with_meridians: [LinkedIn](https://www.linkedin.com/in/yifan-wu-9a2784192/)
+:globe_with_meridians: [**LinkedIn**](https://www.linkedin.com/in/yifan-wu-9a2784192/) & [**github**](https://github.com/EdenWuyifan)  
 
 # ABOUT ME
 
