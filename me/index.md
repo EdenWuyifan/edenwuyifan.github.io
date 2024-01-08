@@ -7,6 +7,8 @@ title: me
 :telephone_receiver: +1 (646)706-1025  
 :house: 45 Park Lane South, Jersey City, NJ, 07310  
 :globe_with_meridians: [**LinkedIn**](https://www.linkedin.com/in/yifan-wu-9a2784192/) & [**GitHub**](https://github.com/EdenWuyifan)  
+:clipboard: [**Curriculum vitae**](/assets/file/Eden_Wu_Resume.pdf)  
+
 
 # ABOUT ME
 
