@@ -34,22 +34,22 @@ As an online marketplace, we target both emerging artists and people who encount
 ## Demo Images
 
 ### Homepage
-![Homepage](/assets/img/artitone_images/image.png)
+![profile](/assets/img/artitone_images/image.png)
 
 ### Login & Sign-up
-![Login](/assets/img/artitone_images/image-1.png)
-![Signup-1](/assets/img/artitone_images/image-2.png)
-![Signup-2](/assets/img/artitone_images/image-3.png)
+![profile](/assets/img/artitone_images/image-1.png)
+![profile](/assets/img/artitone_images/image-2.png)
+![profile](/assets/img/artitone_images/image-3.png)
 
 
 ### Profile Page
-![Profile](/assets/img/artitone_images/image-4.png)
+![profile](/assets/img/artitone_images/image-4.png)
 
 ### Shop Page
-![Shoppage](/assets/img/artitone_images/image-6.png)
+![profile](/assets/img/artitone_images/image-6.png)
 
 ### Product View
-![Productview](/assets/img/artitone_images/image-7.png)
+![profile](/assets/img/artitone_images/image-7.png)
 
 ### About
-![About](/assets/img/artitone_images/image-5.png)
+![profile](/assets/img/artitone_images/image-5.png)

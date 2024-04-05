@@ -16,17 +16,17 @@ I worked as the lead developer for Loppi, an iOS application dedicated to sublet
 ## Demo Images
 
 ### Homepage
-![Homepage](/assets/img/loppi_images/image.png)
+![profile](/assets/img/loppi_images/image.png)
 
-![Homepage-2](/assets/img/loppi_images/image-1.png)
+![profile](/assets/img/loppi_images/image-1.png)
 
 
 ### Chatroom
-![Chat](/assets/img/loppi_images/image-2.png)
-![Chat-2](/assets/img/loppi_images/image-3.png)
+![profile](/assets/img/loppi_images/image-2.png)
+![profile](/assets/img/loppi_images/image-3.png)
 
 ### Bookmark
-![Bookmark](/assets/img/loppi_images/image-4.png)
+![profile](/assets/img/loppi_images/image-4.png)
 
 ### Search Page
-![Searchpage](/assets/img/loppi_images/image-5.png)
+![profile](/assets/img/loppi_images/image-5.png)
