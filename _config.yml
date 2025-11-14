@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
-url: edenwuyifan.github.io
-baseurl: /project
+url: https://edenwuyifan.github.io
+baseurl: ""
 
 # variables
 name: Eden's Personal Site
@@ -11,7 +11,7 @@ mermaid: true
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "_posts/2017-09-16-markdown-test-page.md"]
 
 # Sass
 sass:
