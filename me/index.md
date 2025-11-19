@@ -115,6 +115,6 @@ Before NYU, I developed large-scale network software at Huawei, building core 5G
 
 | Period | Degree / Program |
 | :-------------- | :-------------- |
-| 2021-09 – Present | M.S. in Computer Science, **NYU Tandon School of Engineering**, New York, NY |
+| 2021-09 – 2024-05 | M.S. in Computer Science, **NYU Tandon School of Engineering**, New York, NY |
 | 2017-09 – 2021-07 | B.S. in Computer Science (Minor in Interactive Media Art), **NYU Shanghai** |
 | 2019-09 – 2020-06 | Visiting student, Computer Science (Minor in Game Design), **New York University**, New York, NY |
