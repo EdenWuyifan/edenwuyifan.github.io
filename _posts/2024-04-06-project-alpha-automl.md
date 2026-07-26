@@ -1,88 +1,52 @@
 ---
 layout: default
 title: "Alpha-AutoML"
+window_title: "Alpha-AutoML — reproducible pipeline search"
+description: An AutoML system for finding reproducible end-to-end machine-learning pipelines.
 tags: projects
 ---
 
-# Alpha-AutoML
+<article class="research-case">
+  <p class="case-eyebrow">AutoML · Reinforcement learning · Reproducible pipelines</p>
+  <h1>Alpha-AutoML</h1>
+  <p class="case-deck">Alpha-AutoML searches for end-to-end machine-learning pipelines that read and preprocess data, select models, and train them across multiple application domains.</p>
 
-[![PyPI version](https://badge.fury.io/py/alpha-automl.svg)](https://pypi.org/project/alpha-automl/0.2.0/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Tests](https://github.com/VIDA-NYU/alpha-automl/actions/workflows/build.yml/badge.svg)](https://github.com/VIDA-NYU/alpha-automl/actions/workflows/build.yml)
-[![Documentation Status](https://readthedocs.org/projects/alpha-automl/badge/?version=latest)](https://alpha-automl.readthedocs.io/en/latest/?badge=latest)
+  <div class="case-actions">
+    <a href="https://github.com/VIDA-NYU/alpha-automl">View on GitHub</a>
+    <a href="https://alpha-automl.readthedocs.io/">Documentation</a>
+    <a href="https://pypi.org/project/alpha-automl/0.2.0/">PyPI package</a>
+    <a href="/me/#projects">All projects</a>
+  </div>
 
+  <div class="case-facts">
+    <div><span>Focus</span><strong>Automated pipeline search</strong></div>
+    <div><span>Context</span><strong>NYU · D3M</strong></div>
+    <div><span>Availability</span><strong>Open source</strong></div>
+  </div>
 
-![profile](https://github.com/VIDA-NYU/alpha-automl/raw/devel/Alpha-AutoML_logo.png)
+  <figure id="system-figure" class="case-media case-media-contain">
+    <img src="/assets/img/projects/alpha-automl/pipeline-comparison.png" alt="Alpha-AutoML pipeline comparison interface showing primitives, model scores, and pipeline graphs">
+    <figcaption>Pipeline-comparison views help users relate primitive choices, model performance, and end-to-end workflow structure.</figcaption>
+  </figure>
 
+  <h2>Adaptive pipeline discovery</h2>
+  <p>Alpha-AutoML uses deep reinforcement learning to search over model and preprocessing choices. Incremental learning allows the system to adapt its search behavior across different problem types and data modalities.</p>
 
-Alpha-AutoML is an AutoML system that automatically searches for models and derives end-to-end pipelines that read, 
-pre-process the data, and train the model. Alpha-AutoML leverages recent advances in deep reinforcement learning and is 
-able to adapt to different application domains and problems through incremental learning.
+  <h2>From data to complete pipelines</h2>
+  <p>Rather than selecting only an estimator, the system searches over full workflows: loading data, preprocessing features, selecting useful representations, fitting a model, and producing predictions. The component-based design draws from the Python ecosystem and can incorporate new primitives as they become available.</p>
 
-Alpha-AutoML provides data scientists and data engineers the flexibility to address complex problems by leveraging the 
-Python ecosystem, including open-source libraries and tools, support for collaboration, and infrastructure that enables 
-transparency and reproducibility. 
+  <h2>Designed for reproducible work</h2>
+  <ul>
+    <li>Builds complete pipelines rather than recommending isolated models.</li>
+    <li>Uses the broader Python machine-learning ecosystem as its component library.</li>
+    <li>Supports collaborative experimentation and repeatable model development.</li>
+    <li>Ships as a Python package and through prebuilt Docker environments.</li>
+  </ul>
 
-This repository is part of New York University's implementation of the 
-[Data Driven Discovery project (D3M)](https://datadrivendiscovery.org/).
+  <div class="case-callout">The project was developed as part of New York University’s implementation of the DARPA Data-Driven Discovery of Models program.</div>
 
+  <h2>Packaging and deployment</h2>
+  <p>Alpha-AutoML is distributed through PyPI and as prebuilt Docker images with Jupyter. The repository also includes Kubernetes resources for shared JupyterHub deployments, making it possible to move from local experiments to collaborative infrastructure.</p>
 
-## Documentation
-
-Documentation is available [here.](https://alpha-automl.readthedocs.io/)
-
-## Installation
-
-This package works with Python 3.6+ in Linux, Mac, and Windows.
-
-You can install the latest stable version of this library from [PyPI](https://pypi.org/project/alpha-automl/):
-
-```
-pip install alpha-automl
-```
-
-To install the latest development version:
-
-```
-pip install git+https://github.com/VIDA-NYU/alpha-automl@devel
-```
-
-
-## Trying it using Docker
-
-We provide pre-built docker images with Jupyter and Alpha-AutoML pre-installed that you can use to quickly test Alpha-AutoML.
-To test it, you can run the following command in your machine, and open Jupyter Notebook on your browser:
-
-```
-docker run -p 8888:8888 ghcr.io/vida-nyu/alpha-automl
-```
-Using this command, Jupyter Notebook will auto-generate a security token. The correct URL to access the Jupyter will be printed in the console output and will look like: `http://127.0.0.1:8888/?token=70ace7fa017c35ba0134dc7931add12bf55a69d4d4e6e54f`.
-
-Alternatively, if you want to provide a custom security token, you can run:
-```
-docker run -p 8888:8888 -e JUPYTER_TOKEN="<my-token>" ghcr.io/vida-nyu/alpha-automl
-```
-
-If you are running the Jupyter Notebook in a secure environment, the authentication can be disabled as follows:
-```
-docker run -p 8888:8888 ghcr.io/vida-nyu/alpha-automl --NotebookApp.token=''
-```
-
-## Building a Docker image from scratch
-
-If you need to build an image from sources, you can use our [Dockerfile](https://github.com/VIDA-NYU/alpha-automl/blob/devel/Dockerfile). You can use a docker-build argument to select the packages that will be installed in the image (e.g., `full`, `timeseries`, `nlp`, etc) as follows:
-
-```
-docker build -t alpha-automl --build-arg BUILD_OPTION=full .
-```
-
-Or simply a base version using (this will use less disk space but will not provide support for some tasks such as NLP and timeseries):
-```
-docker build -t alpha-automl:latest --target alpha-automl .
-```
-
-You can also build an image to use with JupyterHub as follows:
-```
-docker build -t alpha-automl:latest-jupyterhub --target alpha-automl-jupyterhub .
-```
-See also the documentation on how to setup Alpha-AutoML + JupyterHub on [Kubernetes](https://github.com/VIDA-NYU/alpha-automl/tree/devel/kubernetes).
+  <div class="case-code"><code>pip install alpha-automl</code><span>Python package for local pipeline search</span></div>
+</article>

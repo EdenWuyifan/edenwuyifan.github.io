@@ -1,51 +1,27 @@
-// By: h01000110 (hi)
-// github.com/h01000110
+// Add line numbers to fenced code blocks.
+function numbers() {
+	document.querySelectorAll("pre code").forEach(function (field) {
+		var lines = field.textContent.replace(/\n$/, "").split("\n");
+		var table = document.createElement("table");
 
-function numbers () {
-	var fields = document.getElementsByTagName("code");
-	for (field in fields) {
-		var num = 0;
-		var select = fields[field].innerText;
-		var select_f = select.split(/\n/);
-		var tab = document.createElement("table");
-
-		// IF YOU USE MARKDOWN AND YOU HAVE BEEN GETTING ONE ADDITIONAL LINE IN YOUR TAG CODE
-		// UNCOMMENT THE SECTION BELOW
-		
-		/* MARKDOWN SECTION /**/
-
-		select_f.splice(-1, 1);
-
-		/* END OF SECTION*/
-
-		fields[field].innerHTML = "";
-		fields[field].appendChild(tab);
-		for (line in select_f) {
+		lines.forEach(function (line, index) {
 			var row = document.createElement("tr");
-			var col = document.createElement("th");
-			var colc = document.createElement("th");
-			col.innerText = num + 1;
-			colc.innerText = select_f[line];
-			row.appendChild(col);
-			row.appendChild(colc);
-			tab.appendChild(row);
-			num = num + 1;
+			var number = document.createElement("th");
+			var content = document.createElement("th");
 
-			// STYLE SECTION - If you want, change it below
+			number.textContent = index + 1;
+			content.textContent = line;
+			number.style.cssText = "text-align:right;border:0;border-right:2px solid #777;padding:3px";
+			content.style.cssText = "text-align:left;border:0;padding:3px";
+			row.appendChild(number);
+			row.appendChild(content);
+			table.appendChild(row);
+		});
 
-			col.style.textAlign = "right";
-			colc.style.textAlign = "left";
-			tab.style.border = "0";
-			col.style.border = "0";
-			colc.style.border = "0";
-			col.style.padding = "3px";
-			colc.style.padding = "3px";
-			col.style.borderRight = "2px solid #777777";
-
-			// END OF SECTION
-
-		}
-	}
+		table.style.border = "0";
+		field.textContent = "";
+		field.appendChild(table);
+	});
 }
 
-window.onload = numbers();
+window.addEventListener("load", numbers);

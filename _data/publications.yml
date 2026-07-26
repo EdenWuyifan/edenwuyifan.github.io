@@ -1,0 +1,120 @@
+- year: "2026"
+  status: "Workshop · Accepted"
+  featured: true
+  title: "AgentTrails: Towards Trust and Reuse for Agentic Tasks"
+  authors: "Eden Wu, Sonia Castelo, Yurong Liu, Cláudio T. Silva, Juliana Freire"
+  venue: "VLDB 2026 Workshop on Systems for Data-centric Agents with Human-in-the-loop (DASHSys)"
+  note: "A visual analytics system that turns agent trajectories into provenance graphs for comparison, sensemaking, and reusable skill abstraction."
+  links:
+    - label: "Paper"
+      url: "/assets/file/research/AgentTrails-DASHSys-2026.pdf"
+    - label: "Code"
+      url: "https://github.com/EdenWuyifan/AgentProvenance"
+    - label: "Project"
+      url: "/20260724/project-agentprovenance"
+
+- year: "2026"
+  status: "Accepted"
+  featured: true
+  title: "MosaicJoin: Compact Semantic Sketches for Value-Level Join Discovery"
+  authors: "Grace Fan, Eden Wu, Majid Daliri, Juliana Freire"
+  venue: "Proceedings of the VLDB Endowment (PVLDB)"
+  note: "Compact semantic sketches for accurate and scalable value-level join discovery across heterogeneous data."
+  links:
+    - label: "Paper"
+      url: "/assets/file/research/MosaicJoin-PVLDB-2026.pdf"
+    - label: "Code"
+      url: "https://github.com/VIDA-NYU/MosaicJoin"
+    - label: "Project"
+      url: "/20260723/project-mosaicjoin"
+
+- year: "2026"
+  status: "Conference"
+  title: "LakeQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"
+  authors: "Haonan Wang, Jiaxiang Liu, Yurong Liu, Austin Senna Wijaya, Tianle Zhou, Eden Wu, Yijia Chen, Wanting You, Reya Vir, Daniela Pinto, Grace Fan, Yusen Zhang, Juliana Freire, Eugene Wu"
+  venue: "International Conference on Machine Learning (ICML)"
+  note: "A benchmark for agents that must search and reason over a 9.5 TB heterogeneous data lake."
+  links:
+    - label: "ICML paper"
+      url: "https://openreview.net/forum?id=gWoEOFW0CR"
+
+- year: "2026"
+  status: "Conference"
+  title: "InsightAR: A Tool for Multi-modal Summarization and Interactive Analysis of AR-based Egocentric Task Videos"
+  authors: "Guande Wu, Dishita Turakhia, Eden Wu, Sonia Castelo Quispe, João Rulff, Erin McGowan, Jianben He, Yawei Wang, Jing Qian, Cláudio T. Silva"
+  venue: "ACM International Conference on Advanced Visual Interfaces (AVI)"
+  note: "An interactive system for summarizing and analyzing multimodal egocentric task videos."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3811427.3811456"
+
+- year: "2026"
+  status: "Demo"
+  featured: true
+  title: "BDIViz in Action: Interactive Curation and Benchmarking for Schema Matching Methods"
+  authors: "Eden Wu, Christos Koutras, Cláudio T. Silva, Juliana Freire"
+  venue: "Companion of the ACM International Conference on Management of Data (SIGMOD)"
+  note: "Extends BDIViz into a human-in-the-loop environment for matcher evaluation and ground-truth construction."
+  links:
+    - label: "ACM"
+      url: "https://doi.org/10.1145/3788853.3801596"
+    - label: "Project"
+      url: "https://github.com/VIDA-NYU/bdi-viz"
+
+- year: "2026"
+  status: "Manuscript"
+  title: "VizAgentBench: Benchmarking Multimodal Agent Reasoning on Coordinated Multi-View Visual Analytics Tasks"
+  authors: "Guande Wu, Canwen Xu, Eden Wu, Zhewei Yao, Yuxiong He"
+  venue: "OpenReview manuscript"
+  note: "A benchmark for multimodal agents that interact with coordinated, multi-view visual analytics dashboards."
+  links:
+    - label: "OpenReview"
+      url: "https://openreview.net/forum?id=nPvEFTxoHw"
+
+- year: "2026"
+  status: "Journal · IEEE VIS"
+  featured: true
+  title: "BDIViz: An Interactive Visualization System for Biomedical Schema Matching with LLM-Powered Validation"
+  authors: "Eden Wu, Dishita G. Turakhia, Guande Wu, Christos Koutras, Sarah Keegan, Wenke Liu, Beata Szeitz, David Fenyo, Cláudio T. Silva, Juliana Freire"
+  venue: "IEEE Transactions on Visualization and Computer Graphics · 32(1):1208–1218"
+  note: "An expert-in-the-loop visual analytics system for scalable biomedical schema matching and LLM-assisted validation."
+  links:
+    - label: "IEEE"
+      url: "https://www.computer.org/csdl/journal/tg/2026/01/11299421/2cojjOAcRCo"
+    - label: "Code"
+      url: "https://github.com/VIDA-NYU/bdi-viz"
+    - label: "Manual"
+      url: "https://vida-nyu.github.io/bdi-viz-manual/"
+
+- year: "2025"
+  status: "Journal"
+  featured: true
+  title: "Magneto: Combining Small and Large Language Models for Schema Matching"
+  authors: "Yurong Liu, Eduardo Peña, Aécio Santos, Eden Wu, Juliana Freire"
+  venue: "Proceedings of the VLDB Endowment (PVLDB)"
+  note: "A retrieval-and-reranking pipeline that combines efficient small models with accurate LLM validation."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.14778/3742728.3742757"
+    - label: "Code"
+      url: "https://github.com/VIDA-NYU/magneto-matcher"
+
+- year: "2025"
+  status: "Bulletin"
+  title: "Large Language Models for Data Discovery and Integration: Challenges and Opportunities"
+  authors: "Juliana Freire, Grace Fan, Benjamin Feuer, Christos Koutras, Yurong Liu, Eduardo Peña, Aécio S. R. Santos, Cláudio T. Silva, Eden Wu"
+  venue: "IEEE Data Engineering Bulletin"
+  note: "A research agenda for applying language models to semantic heterogeneity in data discovery and integration."
+  links:
+    - label: "PDF"
+      url: "https://sites.computer.org/debull/A25mar/p3.pdf"
+
+- year: "2024"
+  status: "Workshop"
+  title: "Enhancing Biomedical Schema Matching with LLM-Based Training Data Generation"
+  authors: "Yurong Liu, Aécio Santos, Eduardo H. M. Peña, Roque Lopez, Eden Wu, Juliana Freire"
+  venue: "NeurIPS 2024 · Third Table Representation Learning Workshop"
+  note: "Uses LLM-generated training pairs and contrastive learning to improve in-domain biomedical schema matching."
+  links:
+    - label: "Poster"
+      url: "https://neurips.cc/virtual/2024/103152"

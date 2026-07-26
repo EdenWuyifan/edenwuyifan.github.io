@@ -6,11 +6,10 @@
 
 <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
 <script>
-  $(document).ready(function () {
+  document.addEventListener("DOMContentLoaded", function () {
     mermaid.initialize({
-      startOnLoad:true,
+      startOnLoad: true,
       theme: "default",
     });
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
   });
 </script>
